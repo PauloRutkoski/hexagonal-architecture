@@ -7,7 +7,6 @@ import rutkoski.paulo.port.in.CreateProductUseCase;
 import rutkoski.paulo.port.in.GetProductByIdUseCase;
 import rutkoski.paulo.port.in.impl.CreateProductUseCaseImpl;
 import rutkoski.paulo.port.in.impl.GetProductByIdUseCaseImpl;
-import rutkoski.paulo.port.out.ProductRepository;
 
 @Configuration
 public class PortsConfiguration {

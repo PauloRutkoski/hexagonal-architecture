@@ -15,6 +15,7 @@
 
         <spring.version>3.4.5</spring.version>
         <mapstruct.version>1.6.3</mapstruct.version>
+        <lombok.version>1.18.38</lombok.version>
     </properties>
 
     <dependencies>
@@ -33,7 +34,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.38</version>
+            <version>${lombok.version}</version>
             <scope>provided</scope>
         </dependency>
 
@@ -70,7 +71,7 @@
                         <annotationProcessorPath>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
-                            <version>1.18.38</version> <!-- Verifique a versão mais recente do Lombok -->
+                            <version>${lombok.version}</version> <!-- Verifique a versão mais recente do Lombok -->
                         </annotationProcessorPath>
                     </annotationProcessorPaths>
                 </configuration>
